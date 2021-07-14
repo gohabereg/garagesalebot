@@ -3,7 +3,6 @@ from telegram.ext import Updater, MessageHandler, Filters, Dispatcher
 from telegram import Update
 from telegram.ext.callbackcontext import CallbackContext
 
-
 class Bot: 
     def __init__(self):
         self.updater: Updater = Updater(token=getenv('BOT_TOKEN'))
